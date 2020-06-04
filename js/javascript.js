@@ -10,7 +10,7 @@ burger.onclick=function() {
 	body.classList.toggle("block");
 	window.scroll({
 		left: 0,
-		top: 0
+		top: -200
 	});
 }
 close.onclick=function() {
