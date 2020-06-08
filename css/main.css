@@ -71,7 +71,6 @@ a {
 	line-height: 80px;
 	text-transform: uppercase;
 	margin: 125px 0 30px;
-	white-space: nowrap;
 	letter-spacing: -1px;
 }
 .head-black {
@@ -565,7 +564,6 @@ a {
 		line-height: 58px;
 	}
 	.header-description {
-		flex: 0 1 40%;
 		align-self: center;
 	}
 	.form-container {
@@ -638,6 +636,9 @@ a {
 	}
 }
 @media (max-width: 768px) {
+	.header-description {
+		flex: 0 1 500px;
+	}
 	.navbar {
 		position: absolute;
 		right: 0;
