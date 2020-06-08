@@ -63,6 +63,7 @@ a {
 }
 .header-description {
 	flex: 0 1 55%;
+	padding-right: 20px;
 }
 .description-head {
 	font-family: Montserrat, sans-serif;
