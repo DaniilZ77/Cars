@@ -565,6 +565,7 @@ a {
 	}
 	.header-description {
 		align-self: center;
+		flex: 0 1 50%;
 	}
 	.form-container {
 		flex: 0 1 350px;
